@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9814042C1E8208DB0037D7BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814042B1E8208DB0037D7BA /* LoginViewController.swift */; };
+		9814042F1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814042E1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift */; };
+		981404311E820B4A0037D7BA /* PartiAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404301E820B4A0037D7BA /* PartiAuthService.swift */; };
+		981404341E820BB00037D7BA /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404331E820BB00037D7BA /* Environment.swift */; };
+		981404361E820C360037D7BA /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981404351E820C360037D7BA /* Configuration.plist */; };
+		981404381E8243710037D7BA /* CatanAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404371E8243710037D7BA /* CatanAPIKeys.swift */; };
+		9814043A1E8244400037D7BA /* FacebookAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404391E8244400037D7BA /* FacebookAuthService.swift */; };
+		9814043D1E82452C0037D7BA /* CommonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814043C1E82452C0037D7BA /* CommonAlert.swift */; };
+		981404401E8245A20037D7BA /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814043F1E8245A20037D7BA /* UserSession.swift */; };
+		981404431E8248710037D7BA /* CurrentUserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404421E8248710037D7BA /* CurrentUserDataManager.swift */; };
+		981404461E8248C10037D7BA /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404451E8248C10037D7BA /* CurrentUser.swift */; };
+		981404481E8249130037D7BA /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404471E8249130037D7BA /* APIClient.swift */; };
+		9814044A1E8249340037D7BA /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404491E8249340037D7BA /* APIHandler.swift */; };
+		9814044C1E824BBB0037D7BA /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814044B1E824BBB0037D7BA /* KeyChainHelper.swift */; };
+		9814046C1E826CE90037D7BA /* FacebookKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814046B1E826CE90037D7BA /* FacebookKeys.swift */; };
 		98FED1401E81F8FD009B34D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */; };
-		98FED1421E81F8FD009B34D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED1411E81F8FD009B34D6 /* ViewController.swift */; };
+		98FED1421E81F8FD009B34D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED1411E81F8FD009B34D6 /* HomeViewController.swift */; };
 		98FED1451E81F8FD009B34D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1431E81F8FD009B34D6 /* Main.storyboard */; };
 		98FED1471E81F8FD009B34D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1461E81F8FD009B34D6 /* Assets.xcassets */; };
 		98FED14A1E81F8FD009B34D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1481E81F8FD009B34D6 /* LaunchScreen.storyboard */; };
@@ -18,9 +33,25 @@
 /* Begin PBXFileReference section */
 		0CDA9D917DC8E6A3838B4E0B /* Pods-Catan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Catan/Pods-Catan.release.xcconfig"; sourceTree = "<group>"; };
 		5019D811C7D755324A263269 /* Pods-Catan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Catan/Pods-Catan.debug.xcconfig"; sourceTree = "<group>"; };
+		9814042B1E8208DB0037D7BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9814042E1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialAuthServiceDelegate.swift; sourceTree = "<group>"; };
+		981404301E820B4A0037D7BA /* PartiAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiAuthService.swift; sourceTree = "<group>"; };
+		981404331E820BB00037D7BA /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		981404351E820C360037D7BA /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		981404371E8243710037D7BA /* CatanAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatanAPIKeys.swift; sourceTree = "<group>"; };
+		981404391E8244400037D7BA /* FacebookAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAuthService.swift; sourceTree = "<group>"; };
+		9814043C1E82452C0037D7BA /* CommonAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAlert.swift; sourceTree = "<group>"; };
+		9814043F1E8245A20037D7BA /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		981404421E8248710037D7BA /* CurrentUserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUserDataManager.swift; sourceTree = "<group>"; };
+		981404451E8248C10037D7BA /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		981404471E8249130037D7BA /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		981404491E8249340037D7BA /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		9814044B1E824BBB0037D7BA /* KeyChainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainHelper.swift; sourceTree = "<group>"; };
+		9814046B1E826CE90037D7BA /* FacebookKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookKeys.swift; sourceTree = "<group>"; };
+		982BE42F1E827B0C00135D1D /* Catan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Catan.entitlements; sourceTree = "<group>"; };
 		98FED13C1E81F8FD009B34D6 /* Catan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98FED1411E81F8FD009B34D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98FED1411E81F8FD009B34D6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		98FED1441E81F8FD009B34D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98FED1461E81F8FD009B34D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FED1491E81F8FD009B34D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,9 +92,66 @@
 		9814042A1E82064C0037D7BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				98FED1411E81F8FD009B34D6 /* ViewController.swift */,
+				98FED1411E81F8FD009B34D6 /* HomeViewController.swift */,
+				9814042B1E8208DB0037D7BA /* LoginViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9814042D1E820AF20037D7BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9814042E1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift */,
+				981404301E820B4A0037D7BA /* PartiAuthService.swift */,
+				981404391E8244400037D7BA /* FacebookAuthService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		981404321E820B990037D7BA /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				981404331E820BB00037D7BA /* Environment.swift */,
+				981404351E820C360037D7BA /* Configuration.plist */,
+				981404371E8243710037D7BA /* CatanAPIKeys.swift */,
+				9814046B1E826CE90037D7BA /* FacebookKeys.swift */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		9814043B1E82450B0037D7BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9814043C1E82452C0037D7BA /* CommonAlert.swift */,
+				9814044B1E824BBB0037D7BA /* KeyChainHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		9814043E1E82458C0037D7BA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9814043F1E8245A20037D7BA /* UserSession.swift */,
+				981404471E8249130037D7BA /* APIClient.swift */,
+				981404491E8249340037D7BA /* APIHandler.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		981404411E82485E0037D7BA /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				981404421E8248710037D7BA /* CurrentUserDataManager.swift */,
+			);
+			name = DataManagers;
+			sourceTree = "<group>";
+		};
+		981404441E8248970037D7BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				981404451E8248C10037D7BA /* CurrentUser.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		98FED1331E81F8FD009B34D6 = {
@@ -87,6 +175,13 @@
 		98FED13E1E81F8FD009B34D6 /* Catan */ = {
 			isa = PBXGroup;
 			children = (
+				982BE42F1E827B0C00135D1D /* Catan.entitlements */,
+				981404441E8248970037D7BA /* Models */,
+				981404411E82485E0037D7BA /* DataManagers */,
+				9814043E1E82458C0037D7BA /* API */,
+				9814043B1E82450B0037D7BA /* Helpers */,
+				981404321E820B990037D7BA /* Configurations */,
+				9814042D1E820AF20037D7BA /* Services */,
 				9814042A1E82064C0037D7BA /* Controllers */,
 				981404291E8206110037D7BA /* StoryBoards */,
 				98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */,
@@ -140,7 +235,13 @@
 				TargetAttributes = {
 					98FED13B1E81F8FD009B34D6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S8RA82BA24;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -168,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FED14A1E81F8FD009B34D6 /* LaunchScreen.storyboard in Resources */,
+				981404361E820C360037D7BA /* Configuration.plist in Resources */,
 				98FED1471E81F8FD009B34D6 /* Assets.xcassets in Resources */,
 				98FED1451E81F8FD009B34D6 /* Main.storyboard in Resources */,
 			);
@@ -228,8 +330,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98FED1421E81F8FD009B34D6 /* ViewController.swift in Sources */,
+				9814042C1E8208DB0037D7BA /* LoginViewController.swift in Sources */,
+				981404401E8245A20037D7BA /* UserSession.swift in Sources */,
+				9814043D1E82452C0037D7BA /* CommonAlert.swift in Sources */,
+				9814046C1E826CE90037D7BA /* FacebookKeys.swift in Sources */,
+				9814043A1E8244400037D7BA /* FacebookAuthService.swift in Sources */,
+				981404341E820BB00037D7BA /* Environment.swift in Sources */,
+				98FED1421E81F8FD009B34D6 /* HomeViewController.swift in Sources */,
+				9814044C1E824BBB0037D7BA /* KeyChainHelper.swift in Sources */,
 				98FED1401E81F8FD009B34D6 /* AppDelegate.swift in Sources */,
+				9814044A1E8249340037D7BA /* APIHandler.swift in Sources */,
+				981404381E8243710037D7BA /* CatanAPIKeys.swift in Sources */,
+				981404311E820B4A0037D7BA /* PartiAuthService.swift in Sources */,
+				981404481E8249130037D7BA /* APIClient.swift in Sources */,
+				9814042F1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift in Sources */,
+				981404461E8248C10037D7BA /* CurrentUser.swift in Sources */,
+				981404431E8248710037D7BA /* CurrentUserDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +469,8 @@
 			baseConfigurationReference = 5019D811C7D755324A263269 /* Pods-Catan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Catan/Catan.entitlements;
+				DEVELOPMENT_TEAM = S8RA82BA24;
 				INFOPLIST_FILE = Catan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.parti.Catan;
@@ -366,6 +484,8 @@
 			baseConfigurationReference = 0CDA9D917DC8E6A3838B4E0B /* Pods-Catan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Catan/Catan.entitlements;
+				DEVELOPMENT_TEAM = S8RA82BA24;
 				INFOPLIST_FILE = Catan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.parti.Catan;

@@ -1,27 +1,21 @@
 //
 //  AppDelegate.swift
-//  Catan
+//  test
 //
 //  Created by Youngmin Kim on 2017. 3. 22..
 //  Copyright © 2017년 Parti. All rights reserved.
 //
 
 import UIKit
-import FBSDKCoreKit
-import FBSDKLoginKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FBSDKSettings.setAppID(Environment.sharedConfiguration.get(FacebookKeys.appId)!)
-        FBSDKSettings.setDisplayName(Environment.sharedConfiguration.get(FacebookKeys.displayName)!)
-        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
-                
-        sleep(3)
         return true
     }
 
@@ -47,11 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        return FBSDKApplicationDelegate.sharedInstance().application(application,
-                                                                     open: url,
-                                                                     sourceApplication: sourceApplication,
-                                                                     annotation: annotation)
-    }
+
 }
 
