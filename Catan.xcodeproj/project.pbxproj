@@ -48,6 +48,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		981404291E8206110037D7BA /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				98FED1431E81F8FD009B34D6 /* Main.storyboard */,
+				98FED1481E81F8FD009B34D6 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9814042A1E82064C0037D7BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98FED1411E81F8FD009B34D6 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		98FED1331E81F8FD009B34D6 = {
 			isa = PBXGroup;
 			children = (
@@ -69,11 +87,10 @@
 		98FED13E1E81F8FD009B34D6 /* Catan */ = {
 			isa = PBXGroup;
 			children = (
+				9814042A1E82064C0037D7BA /* Controllers */,
+				981404291E8206110037D7BA /* StoryBoards */,
 				98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */,
-				98FED1411E81F8FD009B34D6 /* ViewController.swift */,
-				98FED1431E81F8FD009B34D6 /* Main.storyboard */,
 				98FED1461E81F8FD009B34D6 /* Assets.xcassets */,
-				98FED1481E81F8FD009B34D6 /* LaunchScreen.storyboard */,
 				98FED14B1E81F8FD009B34D6 /* Info.plist */,
 			);
 			path = Catan;
@@ -225,6 +242,7 @@
 				98FED1441E81F8FD009B34D6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Catan;
 			sourceTree = "<group>";
 		};
 		98FED1481E81F8FD009B34D6 /* LaunchScreen.storyboard */ = {
@@ -233,6 +251,7 @@
 				98FED1491E81F8FD009B34D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Catan;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,6 +393,7 @@
 				98FED1501E81F8FD009B34D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
