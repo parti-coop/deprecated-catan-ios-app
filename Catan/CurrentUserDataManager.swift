@@ -36,9 +36,8 @@ class CurrentUserDataManager {
         }
     }
 
-    private func asModel(json: JSON) -> CurrentUser? {
+    private func asModel(jsonUser: JSON) -> CurrentUser? {
         let currentUser = CurrentUser()
-        let jsonUser = json["user"]
         currentUser.id = jsonUser["id"].int
         currentUser.email = jsonUser["email"].string
         currentUser.nickname = jsonUser["nickname"].string
