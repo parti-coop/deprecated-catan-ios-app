@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9814042C1E8208DB0037D7BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814042B1E8208DB0037D7BA /* LoginViewController.swift */; };
+		4171FB5E1F148B3000765512 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4171FB5D1F148B3000765512 /* MainNavigationController.swift */; };
+		9814042C1E8208DB0037D7BA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814042B1E8208DB0037D7BA /* LoginController.swift */; };
 		9814042F1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814042E1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift */; };
 		981404311E820B4A0037D7BA /* PartiAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404301E820B4A0037D7BA /* PartiAuthService.swift */; };
 		981404341E820BB00037D7BA /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981404331E820BB00037D7BA /* Environment.swift */; };
@@ -23,7 +24,7 @@
 		9814044C1E824BBB0037D7BA /* KeyChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814044B1E824BBB0037D7BA /* KeyChainHelper.swift */; };
 		9814046C1E826CE90037D7BA /* FacebookKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814046B1E826CE90037D7BA /* FacebookKeys.swift */; };
 		98FED1401E81F8FD009B34D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */; };
-		98FED1421E81F8FD009B34D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED1411E81F8FD009B34D6 /* HomeViewController.swift */; };
+		98FED1421E81F8FD009B34D6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FED1411E81F8FD009B34D6 /* HomeController.swift */; };
 		98FED1451E81F8FD009B34D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1431E81F8FD009B34D6 /* Main.storyboard */; };
 		98FED1471E81F8FD009B34D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1461E81F8FD009B34D6 /* Assets.xcassets */; };
 		98FED14A1E81F8FD009B34D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FED1481E81F8FD009B34D6 /* LaunchScreen.storyboard */; };
@@ -32,8 +33,9 @@
 
 /* Begin PBXFileReference section */
 		0CDA9D917DC8E6A3838B4E0B /* Pods-Catan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Catan/Pods-Catan.release.xcconfig"; sourceTree = "<group>"; };
+		4171FB5D1F148B3000765512 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		5019D811C7D755324A263269 /* Pods-Catan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Catan/Pods-Catan.debug.xcconfig"; sourceTree = "<group>"; };
-		9814042B1E8208DB0037D7BA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9814042B1E8208DB0037D7BA /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9814042E1E820B0C0037D7BA /* SocialAuthServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialAuthServiceDelegate.swift; sourceTree = "<group>"; };
 		981404301E820B4A0037D7BA /* PartiAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiAuthService.swift; sourceTree = "<group>"; };
 		981404331E820BB00037D7BA /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		982BE42F1E827B0C00135D1D /* Catan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Catan.entitlements; sourceTree = "<group>"; };
 		98FED13C1E81F8FD009B34D6 /* Catan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98FED1411E81F8FD009B34D6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98FED1411E81F8FD009B34D6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		98FED1441E81F8FD009B34D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98FED1461E81F8FD009B34D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FED1491E81F8FD009B34D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,8 +94,9 @@
 		9814042A1E82064C0037D7BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				98FED1411E81F8FD009B34D6 /* HomeViewController.swift */,
-				9814042B1E8208DB0037D7BA /* LoginViewController.swift */,
+				98FED1411E81F8FD009B34D6 /* HomeController.swift */,
+				9814042B1E8208DB0037D7BA /* LoginController.swift */,
+				4171FB5D1F148B3000765512 /* MainNavigationController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -176,13 +179,13 @@
 			isa = PBXGroup;
 			children = (
 				982BE42F1E827B0C00135D1D /* Catan.entitlements */,
-				981404441E8248970037D7BA /* Models */,
-				981404411E82485E0037D7BA /* DataManagers */,
 				9814043E1E82458C0037D7BA /* API */,
-				9814043B1E82450B0037D7BA /* Helpers */,
 				981404321E820B990037D7BA /* Configurations */,
-				9814042D1E820AF20037D7BA /* Services */,
 				9814042A1E82064C0037D7BA /* Controllers */,
+				981404411E82485E0037D7BA /* DataManagers */,
+				9814043B1E82450B0037D7BA /* Helpers */,
+				981404441E8248970037D7BA /* Models */,
+				9814042D1E820AF20037D7BA /* Services */,
 				981404291E8206110037D7BA /* StoryBoards */,
 				98FED13F1E81F8FD009B34D6 /* AppDelegate.swift */,
 				98FED1461E81F8FD009B34D6 /* Assets.xcassets */,
@@ -330,14 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9814042C1E8208DB0037D7BA /* LoginViewController.swift in Sources */,
+				9814042C1E8208DB0037D7BA /* LoginController.swift in Sources */,
 				981404401E8245A20037D7BA /* UserSession.swift in Sources */,
 				9814043D1E82452C0037D7BA /* CommonAlert.swift in Sources */,
 				9814046C1E826CE90037D7BA /* FacebookKeys.swift in Sources */,
 				9814043A1E8244400037D7BA /* FacebookAuthService.swift in Sources */,
 				981404341E820BB00037D7BA /* Environment.swift in Sources */,
-				98FED1421E81F8FD009B34D6 /* HomeViewController.swift in Sources */,
+				98FED1421E81F8FD009B34D6 /* HomeController.swift in Sources */,
 				9814044C1E824BBB0037D7BA /* KeyChainHelper.swift in Sources */,
+				4171FB5E1F148B3000765512 /* MainNavigationController.swift in Sources */,
 				98FED1401E81F8FD009B34D6 /* AppDelegate.swift in Sources */,
 				9814044A1E8249340037D7BA /* APIHandler.swift in Sources */,
 				981404381E8243710037D7BA /* CatanAPIKeys.swift in Sources */,

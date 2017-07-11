@@ -9,7 +9,7 @@
 import UIKit
 import SwiftyJSON
 
-class LoginViewController: UIViewController, SocialAuthServiceDelegate, PartiAuthServiceDelegate {
+class LoginController: UIViewController, SocialAuthServiceDelegate, PartiAuthServiceDelegate {
     
     @IBOutlet var facebookLoginButton: UIButton!
     @IBOutlet var indicatorView: UIView!

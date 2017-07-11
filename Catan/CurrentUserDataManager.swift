@@ -24,7 +24,7 @@ class CurrentUserDataManager {
                 case .success:
                     if let value = response.result.value {
                         let json = JSON(value)
-                        let currentUser = strongSelf.asModel(json: json)
+                        let currentUser = strongSelf.asModel(jsonUser: json)
                         completionHandler(currentUser, nil)
                     }
                     break
